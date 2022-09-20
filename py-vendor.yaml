@@ -1,0 +1,12 @@
+# py-vendor run --config py-vendor.yaml
+
+params:
+  vendor_dir: ddtrace/vendor
+vendors:
+  tenacity:
+    url: https://github.com/jd/tenacity
+    ref: a7f548520e4ee871ad8aeb354ecfa1a324c8ca19 # v8.0.1
+    copy:
+      - README.rst
+      - pattern: tenacity/**/*.py
+        relative_to: tenacity

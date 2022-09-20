@@ -11,7 +11,7 @@ import typing
 import attr
 import six
 from six.moves import http_client
-import tenacity
+from ddtrace.vendor import tenacity
 
 import ddtrace
 from ddtrace.internal import agent

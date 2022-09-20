@@ -1,6 +1,6 @@
 from typing import Optional
 
-import tenacity
+from ddtrace.vendor import tenacity
 
 from ddtrace.debugging._config import config
 from ddtrace.debugging._encoding import BufferedEncoder

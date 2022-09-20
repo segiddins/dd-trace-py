@@ -249,7 +249,6 @@ setup(
         "protobuf>=3; python_version>='3.7'",
         "protobuf>=3,<4.0; python_version=='3.6'",
         "protobuf>=3,<3.18; python_version<'3.6'",
-        "tenacity>=5",
         "attrs>=19.2.0",
         "cattrs",
         "six>=1.12.0",

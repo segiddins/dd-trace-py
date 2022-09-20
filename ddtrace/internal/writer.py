@@ -13,7 +13,7 @@ from typing import TYPE_CHECKING
 from typing import TextIO
 
 import six
-import tenacity
+from ddtrace.vendor import tenacity
 
 import ddtrace
 from ddtrace.vendor.dogstatsd import DogStatsd

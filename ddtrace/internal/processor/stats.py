@@ -6,7 +6,7 @@ import typing
 from ddsketch import LogCollapsingLowestDenseDDSketch
 from ddsketch.pb.proto import DDSketchProto
 import six
-import tenacity
+from ddtrace.vendor import tenacity
 
 import ddtrace
 from ddtrace import config

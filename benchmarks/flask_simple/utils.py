@@ -4,8 +4,7 @@ import subprocess
 
 import bm.utils as utils
 import requests
-import tenacity
-
+from ddtrace.vendor import tenacity
 
 SERVER_URL = "http://0.0.0.0:8000/"
 

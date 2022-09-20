@@ -1,6 +1,6 @@
 import requests
 import six
-import tenacity
+from ddtrace.vendor import tenacity
 
 from ddtrace.context import Context
 from ddtrace.filters import TraceFilter
